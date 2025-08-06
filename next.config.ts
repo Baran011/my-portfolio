@@ -3,5 +3,9 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin();
 
 export default withNextIntl({
-  // Diğer Next.js ayarların buraya
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true
+  }
 });
