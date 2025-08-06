@@ -1,0 +1,115 @@
+{
+  "AppBar": {
+    "title": "Portfölyüm",
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "language": "Dil",
+    "theme": "Tema",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
+  },
+  "Homepage": {
+    "computer_engineer": "Bilgisayar Mühendisi",
+    "frontend_web_developer": "Frontend Web Geliştirici",
+    "about_title": "Hakkımda",
+    "greeting": "Merhaba, ben Mehmet Baran ÇAKMAK",
+    "description": "3 yıllık deneyimle modern web teknolojileri üzerine uzmanlaşmış bir Frontend Developer'ım. Kullanıcı deneyimini ön planda tutan, performanslı ve estetik arayüzler geliştirken, React, Next.js ve TypeScript gibi güncel araçlarla projeleri hayata geçiriyorum.",
+    "what_i_do_title": "Neler Yapıyorum?",
+    "what_i_do": [
+      "React & Next.js ile ölçeklenebilir, dinamik ve SEO dostu web uygulamaları geliştiriyorum.",
+      "TypeScript kullanarak kod tabanının daha güvenli ve sürdürülebilir olmasını sağlıyorum.",
+      "Kullanıcı odaklı tasarım ilkelerini benimseyerek, erişilebilir ve kullanıcı dostu arayüzler inşa ediyorum.",
+      "Performans optimizasyonu (Lazy Loading, Code Splitting, caching) ve modern CSS (CSS-in-JS, Tailwind) teknikleriyle yüksek hızlı ve sorunsuz deneyimler sunuyorum.",
+      "Agile metodolojileri (Scrum, Kanban) ile ekip çalışmasına uyum sağlayarak, projeleri zamanında ve verimli şekilde teslim ediyorum."
+    ],
+    "professional_approach_title": "Profesyonel Yaklaşımım:",
+    "professional_approach": [
+      {
+        "title": "Teknoloji Tutkusu",
+        "description": "AI entegrasyonları, mikro frontend'ler ve PWA'lar gibi yeni trendleri projelere entegre ederim."
+      },
+      {
+        "title": "Problem Çözme",
+        "description": "Karmaşık gereksinimleri basit, sürdürülebilir ve etkili çözümlere dönüştürme konusunda yetenekliyim."
+      },
+      {
+        "title": "Ekip Uyumu",
+        "description": "Tasarımcılar, backend geliştiriciler ve ürün ekipleriyle sorunsuz iş birliği yaparak uyumlu çalışma kültürü oluşturuyorum."
+      },
+      {
+        "title": "Detay Odaklı",
+        "description": "Kod kalitesi, performans optimizasyonu ve kullanıcı deneyimi detaylarına verdiğim önemle tutarlı ürünler ortaya koyuyorum."
+      }
+    ],
+    "technologies_I_use": "Kullandığım Teknolojiler"
+  },
+  "Experiences": {
+    "title": "Deneyimlerim",
+    "subtitle": "Profesyonel kariyerim boyunca edindiğim deneyimler",
+    "Edulog": {
+      "company": "Edulog Eğitim Arge Bilişim Sanayi Ltd.",
+      "position": "Frontend Developer",
+      "period": "Şubat 2023 - Mayıs 2025",
+      "description": [
+        "Next.js ile bir okulun ihtiyaç duyacağı 5 farklı proje için tüm yönetim ve raporlama sayfalarını oluşturdum.",
+        "AWS Cognito ile oturum yönetim sistemi oluşturdum.",
+        "Adalar mimarisi(Islands Architecture) kullanarak performans odaklı, dinamik sayfalar geliştirdim.",
+        "Redux kullanarak karmaşık iş kurallarını yönetmek için state management modülleri geliştirdim.",
+        "React Hook Form ile dinamik validasyon kuralları içeren kompleks formlar tasarladım.",
+        "Konum bazlı üçüncü taraf servislerin REST API entegrasyonlarını gerçekleştirdim.",
+        "NX Monorepo ile birden fazla projenin ve paylaşımlı kütüphanelerin tek bir merkezden yönetimini sağladım."
+      ]
+    },
+    "KSHabithouse": {
+      "company": "KS HABITHOUSE",
+      "position": "Freelance Frontend Developer",
+      "period": "Mart 2025 – Günümüz",
+      "description": [
+        "React ile emlak yönetim sistemi ve müşteri arayüzü geliştirdim.",
+        "Formik ile dinamik validasyon kuralları içeren kompleks formlar tasarladım.",
+        "Tekrar kullanılabilir komponentler ve React hook'lar geliştirerek projelerin sürdürülebilirliğini artırdım.",
+        "Chakra UI kullanarak yüksek performanslı CRUD arayüzleri geliştirdim.",
+        "Zustand kullanarak state management modülleri geliştirdim."
+      ]
+    },
+    "AdanaEmlak": {
+      "company": "Adana Bölge Emlak İnşaat",
+      "position": "OBİ Sorumlu Subayı",
+      "period": "Şubat 2022 - Şubat 2023",
+      "description": [
+        "Kurumsal IT altyapısının yönetimi ve teknik destek süreçlerini yürüttüm.",
+        "Bilgisayar ağ sistemleri ve donanım bileşenlerinin bakım, kurulum ve sorun giderme işlemlerini gerçekleştirdim."
+      ]
+    },
+    "technologies": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "typescript": "TypeScript",
+      "redux": "Redux",
+      "awsCognito": "AWS Cognito",
+      "nxMonorepo": "NX Monorepo",
+      "tailwind": "Tailwind CSS",
+      "jest": "Jest",
+      "rtl": "React Testing Library",
+      "mui": "MUI",
+      "tanstackTable": "Tanstack Table",
+      "formik": "Formik",
+      "chakra": "Chakra UI",
+      "zustand": "Zustand",
+      "crud": "CRUD",
+      "itManagement": "IT Yönetimi",
+      "networkSystems": "Ağ Sistemleri",
+      "techSupport": "Teknik Destek"
+    }
+  },
+  "Footer": {
+    "title": "İletişime Geçin",
+    "description": "İşbirliği için veya sadece bir merhaba demek için bana ulaşabilirsiniz!",
+    "copyright": "Tüm hakları saklıdır. Mehmet Baran ÇAKMAK tarafından tasarlanmış ve geliştirilmiştir.",
+    "yourName": "Mehmet Baran ÇAKMAK",
+    "builtWith": "Şu teknolojilerle geliştirilmiştir"
+  }
+}

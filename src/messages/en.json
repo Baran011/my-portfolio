@@ -1,0 +1,115 @@
+{
+  "AppBar": {
+    "title": "My Portfolio",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "Homepage": {
+    "computer_engineer": "Computer Engineer",
+    "frontend_web_developer": "Frontend Web Developer",
+    "about_title": "About Me",
+    "greeting": "Hello, I'm Mehmet Baran ÇAKMAK",
+    "description": "I'm a Frontend Developer with 3 years of experience specializing in modern web technologies. While developing high-performance and aesthetic interfaces that prioritize user experience, I bring projects to life using current tools like React, Next.js, and TypeScript.",
+    "what_i_do_title": "What I Do?",
+    "what_i_do": [
+      "I develop scalable, dynamic, and SEO-friendly web applications with React & Next.js.",
+      "I use TypeScript to make the codebase more secure and maintainable.",
+      "I build accessible and user-friendly interfaces by adopting user-centered design principles.",
+      "I deliver high-speed and seamless experiences with performance optimization (Lazy Loading, Code Splitting, caching) and modern CSS (CSS-in-JS, Tailwind) techniques.",
+      "I deliver projects on time and efficiently by adapting to teamwork with Agile methodologies (Scrum, Kanban)."
+    ],
+    "professional_approach_title": "My Professional Approach:",
+    "professional_approach": [
+      {
+        "title": "Passion for Technology",
+        "description": "I integrate new trends like AI integrations, micro frontends, and PWAs into projects."
+      },
+      {
+        "title": "Problem Solving",
+        "description": "I'm skilled at transforming complex requirements into simple, sustainable, and effective solutions."
+      },
+      {
+        "title": "Team Harmony",
+        "description": "I create a harmonious work culture by collaborating seamlessly with designers, backend developers, and product teams."
+      },
+      {
+        "title": "Detail-Oriented",
+        "description": "I produce consistent products with attention to code quality, performance optimization, and user experience details."
+      }
+    ],
+    "technologies_I_use": "Technologies I Use"
+  },
+  "Experiences": {
+    "title": "My Experiences",
+    "subtitle": "Experiences I've gained throughout my professional career",
+    "Edulog": {
+      "company": "Edulog Education R&D IT Industry Ltd.",
+      "position": "Frontend Developer",
+      "period": "February 2023 - May 2025",
+      "description": [
+        "I created all management and reporting pages for 5 different projects that a school would need using Next.js.",
+        "I built a session management system with AWS Cognito.",
+        "I developed performance-oriented, dynamic pages using Islands Architecture.",
+        "I developed state management modules to manage complex business rules using Redux.",
+        "I designed complex forms with dynamic validation rules using React Hook Form.",
+        "I implemented REST API integrations for location-based third-party services.",
+        "I managed multiple projects and shared libraries from a single source using NX Monorepo."
+      ]
+    },
+    "KSHabithouse": {
+      "company": "KS HABITHOUSE",
+      "position": "Freelance Frontend Developer",
+      "period": "March 2025 – Nowadays",
+      "description": [
+        "I developed a real estate management system and customer interface with React.",
+        "I designed complex forms with dynamic validation rules using Formik.",
+        "I increased project sustainability by developing reusable components and React hooks.",
+        "I developed high-performance CRUD interfaces using Chakra UI.",
+        "I developed state management modules using Zustand."
+      ]
+    },
+    "AdanaEmlak": {
+      "company": "Adana Region Real Estate Construction",
+      "position": "OBI Responsible Officer",
+      "period": "February 2022 - February 2023",
+      "description": [
+        "I managed corporate IT infrastructure and technical support processes.",
+        "I performed maintenance, installation and troubleshooting of computer network systems and hardware components."
+      ]
+    },
+    "technologies": {
+      "nextjs": "Next.js",
+      "react": "React",
+      "typescript": "TypeScript",
+      "redux": "Redux",
+      "awsCognito": "AWS Cognito",
+      "nxMonorepo": "NX Monorepo",
+      "tailwind": "Tailwind CSS",
+      "jest": "Jest",
+      "rtl": "React Testing Library",
+      "mui": "MUI",
+      "tanstackTable": "Tanstack Table",
+      "formik": "Formik",
+      "chakra": "Chakra UI",
+      "zustand": "Zustand",
+      "crud": "CRUD",
+      "itManagement": "IT Management",
+      "networkSystems": "Network Systems",
+      "techSupport": "Technical Support"
+    }
+  },
+  "Footer": {
+    "title": "Contact Us",
+    "description": "Contact me for collaboration or just to say hello!",
+    "copyright": "All rights reserved. Designed and developed by Mehmet Baran ÇAKMAK.",
+    "yourName": "Your Name",
+    "builtWith": "Built with"
+  }
+}
