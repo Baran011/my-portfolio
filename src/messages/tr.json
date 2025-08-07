@@ -9,7 +9,8 @@
     "theme": "Tema",
     "light": "Açık",
     "dark": "Koyu",
-    "system": "Sistem"
+    "system": "Sistem",
+    "download_cv": "CV'mi İndir"
   },
   "Homepage": {
     "computer_engineer": "Bilgisayar Mühendisi",

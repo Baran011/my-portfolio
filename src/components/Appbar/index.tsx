@@ -13,7 +13,7 @@ import { Switch } from "@/components/ui/switch";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { Sun, Moon, Laptop, Globe, Menu } from "lucide-react";
+import { Sun, Moon, Globe, Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import lightLogo from "@/assets/logo/mbcLightLogo.png";
 import darkLogo from "@/assets/logo/mbcDarkLogo.png";
@@ -34,6 +34,18 @@ export default function AppBar() {
   const changeLanguage = (locale: string) => {
     const newPath = pathname.replace(/^\/(en|tr)/, `/${locale}`);
     router.push(newPath);
+  };
+
+  const downloadCV = () => {
+    const currentLocale = pathname.split("/")[1] || "en";
+    const cvPath = currentLocale === "tr" ? "/cv_tr.pdf" : "/cv_en.pdf";
+
+    const link = document.createElement("a");
+    link.href = cvPath;
+    link.download = `Mehmet Baran CAKMAK_CV_${currentLocale.toUpperCase()}.pdf`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   useEffect(() => {
@@ -85,6 +97,13 @@ export default function AppBar() {
 
         <div className="flex items-center gap-2">
           {/* Language Selector */}
+          <Button
+            variant={"outline"}
+            className="cursor-pointer"
+            onClick={downloadCV}
+          >
+            {t("download_cv")}
+          </Button>
           <DropdownMenu>
             <DropdownMenuTrigger asChild className="cursor-pointer">
               <Button variant="ghost" size="sm" className="gap-1.5">

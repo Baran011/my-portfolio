@@ -4,33 +4,30 @@ import Image from "next/image";
 import profilePicture from "@/assets/logo/profilePicture.png";
 import circle from "@/assets/logo/circle.png";
 import pencil from "@/assets/logo/pencil.png";
-import { Label } from "@radix-ui/react-dropdown-menu";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { Instagram, Linkedin, Mail, Pencil } from "lucide-react";
-import { useTheme } from "next-themes";
+import { Instagram, Linkedin, Mail } from "lucide-react";
 
 export default function ProfileCard() {
   const t = useTranslations("Homepage");
-  const { theme } = useTheme();
+
   return (
     <div className="flex flex-wrap items-center gap-6">
-      {" "}
       <div className="shrink-0 relative w-[150px] h-[150px]">
         <Image
           src={pencil}
           alt="profile pencil"
           width={150}
           height={150}
-          className={`rounded-full absolute top-[-95px] left-[80px] ${
-            theme === "dark" ? "filter brightness-0 invert" : ""
-          }`}
+          priority
+          className="rounded-full absolute top-[-95px] left-[80px] dark:filter dark:brightness-0 dark:invert"
         />
         <Image
           src={profilePicture}
           alt="profile picture"
           width={150}
           height={150}
+          priority
           className="rounded-full absolute z-10"
           style={{
             width: "calc(100% - 8px)",
@@ -44,22 +41,21 @@ export default function ProfileCard() {
           alt="profile frame"
           width={150}
           height={150}
-          className={`rounded-full absolute ${
-            theme === "dark" ? "filter brightness-0 invert" : ""
-          }`}
+          priority
+          className="rounded-full absolute dark:filter dark:brightness-0 dark:invert"
         />
       </div>
+
       <div className="flex flex-col gap-4 min-w-0">
-        {" "}
         <div className="min-w-0">
-          {" "}
-          <Label className="font-bold text-[26px] block truncate">
+          <h1 className="font-bold text-[26px] block truncate">
             Mehmet Baran ÇAKMAK
-          </Label>
-          <Label className="font-medium text-neutral-500 dark:text-neutral-300 block">
+          </h1>
+          <p className="font-medium text-neutral-500 dark:text-neutral-300 block">
             {t("frontend_web_developer")} | {t("computer_engineer")}
-          </Label>
+          </p>
         </div>
+
         <div className="flex gap-4">
           <Link
             href="https://www.linkedin.com/in/mehmet-baran-%C3%A7akmak-888a58141/"

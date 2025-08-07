@@ -99,13 +99,16 @@ export default function Experiences() {
 
       <div className="space-y-8">
         {experiences.map((exp, index) => (
-          <Card key={index} className="hover:shadow-lg transition-shadow flex ">
+          <Card
+            key={index}
+            className="hover:shadow-lg transition-shadow flex p-0 h-full"
+          >
             <CardHeader
-              className="cursor-pointer"
+              className="cursor-pointer py-4 h-full"
               onClick={() => toggleCard(index)}
             >
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
-                <div className="flex items-center gap-2">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 h-full ">
+                <div className="flex items-center gap-2 h-full">
                   <Button
                     variant="ghost"
                     size="icon"
@@ -141,8 +144,8 @@ export default function Experiences() {
                 expandedCards[index] ? "max-h-[1000px]" : "max-h-0"
               }`}
             >
-              <Separator className="mb-4" />
-              <CardContent className="space-y-4">
+              <Separator className="mb-4 " />
+              <CardContent className="space-y-4 ">
                 <ul className="space-y-2 list-disc pl-5">
                   {exp.description.map((item, i) => (
                     <li key={i} className="text-muted-foreground">
@@ -151,7 +154,7 @@ export default function Experiences() {
                   ))}
                 </ul>
 
-                <div className="flex flex-wrap gap-2 pt-2">
+                <div className="flex flex-wrap gap-2 pt-2 pb-4">
                   {exp.technologies.map((tech, i) => (
                     <Badge
                       key={i}

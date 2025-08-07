@@ -9,7 +9,8 @@
     "theme": "Theme",
     "light": "Light",
     "dark": "Dark",
-    "system": "System"
+    "system": "System",
+    "download_cv": "Download My CV"
   },
   "Homepage": {
     "computer_engineer": "Computer Engineer",
