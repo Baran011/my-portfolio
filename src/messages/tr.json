@@ -112,5 +112,54 @@
     "copyright": "Tüm hakları saklıdır. Mehmet Baran ÇAKMAK tarafından tasarlanmış ve geliştirilmiştir.",
     "yourName": "Mehmet Baran ÇAKMAK",
     "builtWith": "Şu teknolojilerle geliştirilmiştir"
+  },
+  "About": {
+    "about_title": "Hakkımda",
+    "description": "3 yıllık profesyonel deneyime sahip, modern web teknolojilerine tutkulu bir Frontend Developer olarak kariyerimi sürdürüyorum. Harran Üniversitesi'nde tamamladığım Bilgisayar Mühendisliği lisans eğitimim ve İskenderun Teknik Üniversitesi'ndeki yüksek lisans çalışmalarımla teknik altyapımı güçlendirdim. Edindiğim sektör deneyiminin ardından, şu anda Adana'da bağımsız bir Frontend Developer olarak çalışmalarıma devam ediyorum.",
+    "professional_journey": "Profesyonel Yolculuğum",
+    "journey_description_edulog": "Edulog Eğitim Arge Bilişim'deki Mid Frontend Developer pozisyonumda, eğitim sektörüne yönelik yenilikçi çözümler geliştirirken edindiğim deneyimler beni şekillendiren en önemli süreç oldu. Next.js ile inşa ettiğim 5 farklı yönetim ve raporlama projesi, AWS Cognito entegrasyonları ve Adalar mimarisi (Islands Architecture) kullanarak oluşturduğum performans odaklı dinamik sayfalar, teknik yetkinliklerimi somutlaştıran çalışmalar oldu.",
+    "journey_description_habithouse": "Freelance olarak KS Habithouse için geliştirdiğim emlak yönetim sistemi, React ekosistemindeki hakimiyetimi ve bağımsız proje yönetme becerilerimi güçlendirdi. Chakra UI ve Zustand gibi modern araçlarla oluşturduğum yüksek performanslı CRUD arayüzleri, müşteri memnuniyetini ön planda tutan yaklaşımımın göstergesi oldu.",
+    "technical_expertise": "Teknik Uzmanlık Alanlarım",
+    "technical_description": "Güncel frontend ekosistemine hakimiyetim, projelerin ihtiyaçlarına göre en uygun teknoloji yığınını seçebilme esnekliği sunuyor:",
+    "technical": [
+      "React & Next.js: CSR, SSR ve SSG yaklaşımlarıyla ölçeklenebilir, SEO dostu uygulamalar",
+      "State Management: Redux, RTK Query ve Zustand ile karmaşık state yönetimi",
+      "Form Çözümleri: React Hook Form + yup/zod ile validasyon odaklı form yönetimi",
+      "Test Kültürü: Jest ve React Testing Library ile %85+ test coverage hedefi",
+      "CSS Stratejileri: Tailwind, Styled Components ve CSS Modules ile modüler tasarım",
+      "Monorepo Yönetimi: NX ile çoklu proje mimarisi ve paylaşımlı kütüphaneler",
+      "Performans Optimizasyonu: Lazy Loading, Code Splitting ve caching mekanizmaları"
+    ],
+    "professional_philosophy": "Profesyonel Felsefem",
+    "philosophy_description": "Teknolojiyi araç olarak kullanarak her türlü soruna çözüm üretmeyi misyon edindim. Geliştirdiğim her arayüzde:",
+    "philosophy": [
+      "Kullanıcı Deneyimi: Erişilebilirlik (a11y) standartları ve kullanıcı odaklı tasarım ilkeleri",
+      "Kod Kalitesi: Temiz kod prensipleri, tip güvenliği (TypeScript) ve sürdürülebilirlik",
+      "Performans: Lighthouse skorlarını maksimize eden optimizasyonlar",
+      "İş Birliği: Agile (Scrum/Kanban) metodolojileriyle disiplinli ekip çalışması"
+    ],
+    "last_word": "Son Söz",
+    "last_description": "Teknolojiyi insan ihtiyaçlarıyla buluşturan köprüler inşa etmek benim için sadece bir meslek değil, bir tutku. Yeni projelerde yer almak, farklı disiplinlerden profesyonellerle çalışmak ve sınırlarımı genişletmek için her zaman heyecan duyuyorum.",
+    "last_description_1": "Portfolyomdaki projeleri inceleyerek çalışma tarzım hakkında fikir edinebilirsiniz. Yaratıcı çözümler üretebileceğim yeni fırsatlar için iletişime geçmekten mutluluk duyarım.",
+    "Interests": {
+      "title": "İlgi Alanlarım",
+      "subtitle": "Merak ettiğim ve zaman ayırdığım konular",
+      "film": {
+        "title": "Film İzleme",
+        "description": "Bağımsız sinema ve klasik filmler özel ilgi alanım"
+      },
+      "music": {
+        "title": "Müzik",
+        "description": "Alternatif rock ve elektronik müzik dinlemek, gitar çalmak"
+      },
+      "design": {
+        "title": "Tasarım",
+        "description": "Kullanıcı deneyimi ve minimal arayüz tasarımları"
+      },
+      "travel": {
+        "title": "Seyahat",
+        "description": "Yeni kültürler keşfetmek ve doğa fotoğrafları çekmek"
+      }
+    }
   }
 }

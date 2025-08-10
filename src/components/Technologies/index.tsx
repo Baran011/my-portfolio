@@ -70,7 +70,7 @@ export default function Technologies() {
 
   return (
     <section className="pb-8">
-      <h2 className="font-medium text-[22px] block truncate mb-4">
+      <h2 className="text-xl font-bold tracking-tighter sm:text-xl md:text-2xl relative mb-4">
         {t("technologies_I_use")}
       </h2>
 

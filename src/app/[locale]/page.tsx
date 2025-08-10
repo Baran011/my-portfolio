@@ -18,7 +18,7 @@ export default function Home() {
       >
         <ProfileCard />
         <div>
-          <Label className="font-medium text-[22px] block truncate mb-4">
+          <Label className="text-xl font-bold tracking-tighter sm:text-xl md:text-2xl relative mb-4">
             {t("about_title")}
           </Label>
           <Label className="font-semibold text-[18px] block truncate mb-4">
@@ -30,7 +30,7 @@ export default function Home() {
             <br />
             {t("what_i_do_title")}
             <br />
-            <ul className="list-disc pl-5 space-y-2 mt-2">
+            <ul className="list-disc pl-5 space-y-2 mt-2 text-gray-700 dark:text-gray-300">
               <li>{t("what_i_do.0")}</li>
               <li>{t("what_i_do.1")}</li>
               <li>{t("what_i_do.2")}</li>
@@ -40,7 +40,7 @@ export default function Home() {
           </Label>
           <br></br>
           {t("professional_approach_title")}
-          <ul className="mt-4 space-y-4 list-none pl-0">
+          <ul className="mt-4 space-y-4 list-none pl-0 text-gray-700 dark:text-gray-300">
             <li className="flex items-start">
               <span>
                 <strong>{t("professional_approach.0.title")}:</strong>{" "}

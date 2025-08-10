@@ -91,10 +91,13 @@ export default function Experiences() {
   return (
     <section>
       <div className="space-y-2 mb-8">
-        <h2 className="font-medium text-[22px] block truncate mb-4">
+        <h2 className="text-xl font-bold tracking-tighter sm:text-xl md:text-2xl relative">
           {t("title")}
+          <span className="absolute -bottom-3 left-0 right-0 w-24 h-1 bg-gray-800 dark:bg-gray-400"></span>
         </h2>
-        <p className="text-muted-foreground">{t("subtitle")}</p>
+        <p className="max-w-[700px] text-gray-600 dark:text-gray-400 md:text-base/relaxed lg:text-base/relaxed xl:text-base/relaxed italic">
+          {t("subtitle")}
+        </p>
       </div>
 
       <div className="space-y-8">

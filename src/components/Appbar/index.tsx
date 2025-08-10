@@ -60,8 +60,8 @@ export default function AppBar() {
   const navLinks = [
     { href: `/${currentLocale}`, label: t("home") },
     { href: `/${currentLocale}/about`, label: t("about") },
-    { href: `/${currentLocale}/projects`, label: t("projects") },
-    { href: `/${currentLocale}/contact`, label: t("contact") },
+    // { href: `/${currentLocale}/projects`, label: t("projects") },
+    // { href: `/${currentLocale}/contact`, label: t("contact") },
   ];
 
   return (

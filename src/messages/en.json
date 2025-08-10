@@ -112,5 +112,54 @@
     "copyright": "All rights reserved. Designed and developed by Mehmet Baran ÇAKMAK.",
     "yourName": "Your Name",
     "builtWith": "Built with"
+  },
+  "About": {
+    "about_title": "About Me",
+    "description": "As a passionate Frontend Developer with 3 years of professional experience, I continue to advance my career in modern web technologies. I strengthened my technical foundation with a Bachelor's degree in Computer Engineering from Harran University and further deepened my expertise through master's studies at İskenderun Technical University. After gaining industry experience, I now work as a freelance Frontend Developer in Adana.",
+    "professional_journey": "My Professional Journey",
+    "journey_description_edulog": "During my role as a Mid Frontend Developer at Edulog Eğitim Arge Bilişim, the experience I gained while developing innovative solutions for the education sector became the most formative process of my career. Building 5 different management and reporting projects with Next.js, AWS Cognito integrations, and performance-oriented dynamic pages using Islands Architecture were concrete examples of my technical competencies.",
+    "journey_description_habithouse": "As a freelancer, the real estate management system I developed for KS Habithouse strengthened my mastery of the React ecosystem and my independent project management skills. The high-performance CRUD interfaces I built with modern tools like Chakra UI and Zustand became a testament to my customer-centric approach.",
+    "technical_expertise": "My Technical Areas of Expertise",
+    "technical_description": "My expertise in the modern frontend ecosystem enables flexible selection of optimal technology stacks tailored to project requirements:",
+    "technical": [
+      "React & Next.js: Scalable, SEO-friendly applications with CSR, SSR, and SSG approaches",
+      "State Management: Complex state management with Redux, RTK Query, and Zustand",
+      "Form Solutions: Validation-focused form management using React Hook Form + yup/zod",
+      "Testing Culture: 85%+ test coverage target with Jest and React Testing Library",
+      "CSS Strategies: Modular design with Tailwind, Styled Components, and CSS Modules",
+      "Monorepo Management: Multi-project architecture and shared libraries using NX",
+      "Performance Optimization: Lazy Loading, Code Splitting, and caching mechanisms"
+    ],
+    "professional_philosophy": "Professional Philosophy",
+    "philosophy_description": "I have made it my mission to leverage technology as a tool to solve all kinds of problems. In every interface I develop:",
+    "philosophy": [
+      "User Experience: Accessibility (a11y) standards and user-centric design principles",
+      "Code Quality: Clean code practices, type safety (TypeScript), and maintainability",
+      "Performance: Lighthouse score-driven optimizations",
+      "Collaboration: Disciplined teamwork with Agile (Scrum/Kanban) methodologies"
+    ],
+    "last_word": "Last Word",
+    "last_description": "Building bridges between technology and human needs is not just a profession for me, but a passion. I'm always excited to take on new projects, collaborate with professionals from different disciplines, and push my boundaries.",
+    "last_description_1": "You can explore the projects in my portfolio to get an idea of my work approach. I'd be delighted to connect about new opportunities where I can create innovative solutions.",
+    "Interests": {
+      "title": "My Interests",
+      "subtitle": "Topics I'm curious about and spend time on",
+      "film": {
+        "title": "Watching Movies",
+        "description": "Special interest in indie cinema and classic films"
+      },
+      "music": {
+        "title": "Music",
+        "description": "Listening to alternative rock and electronic music, playing guitar"
+      },
+      "design": {
+        "title": "Design",
+        "description": "User experience and minimal interface designs"
+      },
+      "travel": {
+        "title": "Travel",
+        "description": "Exploring new cultures and taking nature photographs"
+      }
+    }
   }
 }
