@@ -37,7 +37,7 @@ export default function AppBar() {
   };
 
   const downloadCV = () => {
-    const currentLocale = pathname.split("/")[1] || "en";
+    const currentLocale = pathname.split("/")[1] || "tr";
     const cvPath = currentLocale === "tr" ? "/cv_tr.pdf" : "/cv_en.pdf";
 
     const link = document.createElement("a");
@@ -56,7 +56,7 @@ export default function AppBar() {
     return null;
   }
 
-  const currentLocale = pathname.split("/")[1] || "en";
+  const currentLocale = pathname.split("/")[1] || "tr";
   const navLinks = [
     { href: `/${currentLocale}`, label: t("home") },
     { href: `/${currentLocale}/about`, label: t("about") },

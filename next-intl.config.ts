@@ -1,4 +1,4 @@
 export const locales = ["en", "tr"];
-export const defaultLocale = "en";
+export const defaultLocale = "tr";
 
 export default { locales, defaultLocale };
