@@ -61,7 +61,10 @@
         "Redux kullanarak karmaşık iş kurallarını yönetmek için state management modülleri geliştirdim.",
         "React Hook Form ile dinamik validasyon kuralları içeren kompleks formlar tasarladım.",
         "Konum bazlı üçüncü taraf servislerin REST API entegrasyonlarını gerçekleştirdim.",
-        "NX Monorepo ile birden fazla projenin ve paylaşımlı kütüphanelerin tek bir merkezden yönetimini sağladım."
+        "NX Monorepo ile birden fazla projenin ve paylaşımlı kütüphanelerin tek bir merkezden yönetimini sağladım.",
+        "MUI DataGrid ve Tanstack table kullanarak gelişmiş ve kompleks veri tabloları oluşturdum.",
+        "Jest ve React Testing Library kullanarak bileşenlerin unit testlerini yazdım; test kapsamını (coverage) artırarak uygulamanın sürdürülebilirliğini sağladım.",
+        "Tailwind CSS ve Styled Components kullanarak tamamen responsive ve Figma’ya göre pixel-perfect UI'lar geliştirdim."
       ]
     },
     "KSHabithouse": {
@@ -160,6 +163,14 @@
         "title": "Seyahat",
         "description": "Yeni kültürler keşfetmek ve doğa fotoğrafları çekmek"
       }
+    },
+    "frontend": "Frontend Geliştirici",
+    "react_next": "React & Next.js Uzmanı",
+    "ui": "UI/UX Meraklısı",
+    "stats": {
+      "years_experience": "Yıl Tecrübe",
+      "technology": "Teknoloji Uzmanlığı",
+      "reference": "Referans"
     }
   }
 }

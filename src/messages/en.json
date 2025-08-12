@@ -61,7 +61,10 @@
         "I developed state management modules to manage complex business rules using Redux.",
         "I designed complex forms with dynamic validation rules using React Hook Form.",
         "I implemented REST API integrations for location-based third-party services.",
-        "I managed multiple projects and shared libraries from a single source using NX Monorepo."
+        "I managed multiple projects and shared libraries from a single source using NX Monorepo.",
+        "I built advanced and complex data tables using MUI DataGrid and Tanstack Table.",
+        "I wrote unit tests for components using Jest and React Testing Library, increasing test coverage to ensure the sustainability of the application.",
+        "I developed fully responsive, pixel-perfect UIs based on Figma using Tailwind CSS and Styled Components."
       ]
     },
     "KSHabithouse": {
@@ -160,6 +163,14 @@
         "title": "Travel",
         "description": "Exploring new cultures and taking nature photographs"
       }
+    },
+    "frontend": "Frontend Developer",
+    "react_next": "React & Next.js Expert",
+    "ui": "UI/UX Enthusiast",
+    "stats": {
+      "years_experience": "Years of Experience",
+      "technology": "Technology Expertise",
+      "reference": "Reference"
     }
   }
 }

@@ -57,6 +57,9 @@ export default function Experiences() {
         t("Edulog.description.4"),
         t("Edulog.description.5"),
         t("Edulog.description.6"),
+        t("Edulog.description.7"),
+        t("Edulog.description.8"),
+        t("Edulog.description.9"),
       ],
       technologies: [
         t("technologies.nextjs"),
