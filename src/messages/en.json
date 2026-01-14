@@ -17,7 +17,7 @@
     "frontend_web_developer": "Frontend Web Developer",
     "about_title": "About Me",
     "greeting": "Hello, I'm Mehmet Baran ÇAKMAK",
-    "description": "I'm a Frontend Developer with 3 years of experience specializing in modern web technologies. While developing high-performance and aesthetic interfaces that prioritize user experience, I bring projects to life using current tools like React, Next.js, and TypeScript.",
+    "description": "I'm a Frontend Developer with 4 years of experience specializing in modern web technologies. While developing high-performance and aesthetic interfaces that prioritize user experience, I bring projects to life using current tools like React, Next.js, and TypeScript.",
     "what_i_do_title": "What I Do?",
     "what_i_do": [
       "I develop scalable, dynamic, and SEO-friendly web applications with React & Next.js.",
@@ -67,10 +67,37 @@
         "I developed fully responsive, pixel-perfect UIs based on Figma using Tailwind CSS and Styled Components."
       ]
     },
+    "EduMagicXR": {
+      "company": "EduMagicXR",
+      "position": "Senior Frontend Developer",
+      "period": "November 2025 – Present",
+      "description": [
+        "I am developing a modern, performance-oriented education management platform using Next.js 15 and React 18.",
+        "I implemented centralized state management with Redux Toolkit and secure API integration with automatic token refresh mechanism using RTK Query.",
+        "I designed a responsive, dark/light theme-supported, and multilingual (TR, EN, AR, DE) user interface using Material-UI (MUI) component library.",
+        "I created a reusable DataTable component with server-side and client-side pagination, sorting, filtering, and search features.",
+        "I automated code standards with ESLint, Prettier, and Stylelint, and ensured clean code sustainability with Husky pre-commit hooks.",
+        "I wrote comprehensive unit and integration tests with 80%+ test coverage using Jest and React Testing Library.",
+        "I integrated Unity WebGL to enable 3D educational content to run on the web platform."
+      ]
+    },
+    "MTYMarkaTasarla": {
+      "company": "MTY Marka Tasarla Software",
+      "position": "Senior Frontend Lead Developer",
+      "period": "July 2025 – November 2025",
+      "description": [
+        "I served as Frontend Team Lead on two different projects in the mobile device trading and tourism/hospitality sectors.",
+        "I took an active role in planning project architecture, code standards, CI/CD pipeline management, and deployment processes.",
+        "I increased the team's technical quality and productivity through code reviews, PR management, and sprint planning.",
+        "I developed performance-oriented, SEO-friendly, and scalable interfaces using Next.js (App Router) + TypeScript infrastructure.",
+        "I enabled modular structures to be developed independently and reused through a microfrontend approach.",
+        "I developed dynamic forms and validation systems using React Hook Form + Yup structure."
+      ]
+    },
     "KSHabithouse": {
       "company": "KS HABITHOUSE",
       "position": "Freelance Frontend Developer",
-      "period": "March 2025 – Nowadays",
+      "period": "March 2025 – August 2025",
       "description": [
         "I developed a real estate management system and customer interface with React.",
         "I designed complex forms with dynamic validation rules using Formik.",
@@ -106,7 +133,20 @@
       "crud": "CRUD",
       "itManagement": "IT Management",
       "networkSystems": "Network Systems",
-      "techSupport": "Technical Support"
+      "techSupport": "Technical Support",
+      "reactHookForm": "React Hook Form",
+      "yup": "Yup",
+      "microfrontend": "Microfrontend",
+      "cicd": "CI/CD",
+      "appRouter": "App Router",
+      "reduxToolkit": "Redux Toolkit",
+      "rtkQuery": "RTK Query",
+      "eslint": "ESLint",
+      "prettier": "Prettier",
+      "stylelint": "Stylelint",
+      "husky": "Husky",
+      "unityWebGL": "Unity WebGL",
+      "i18n": "i18n (Multilingual)"
     }
   },
   "Footer": {
@@ -118,7 +158,7 @@
   },
   "About": {
     "about_title": "About Me",
-    "description": "As a passionate Frontend Developer with 3 years of professional experience, I continue to advance my career in modern web technologies. I strengthened my technical foundation with a Bachelor's degree in Computer Engineering from Harran University and further deepened my expertise through master's studies at İskenderun Technical University. After gaining industry experience, I now work as a freelance Frontend Developer in Adana.",
+    "description": "As a passionate Frontend Developer with 4 years of professional experience, I continue to advance my career in modern web technologies. I strengthened my technical foundation with a Bachelor's degree in Computer Engineering from Harran University and further deepened my expertise through master's studies at İskenderun Technical University. After gaining industry experience, I now work as a freelance Frontend Developer in Adana.",
     "professional_journey": "My Professional Journey",
     "journey_description_edulog": "During my role as a Mid Frontend Developer at Edulog Eğitim Arge Bilişim, the experience I gained while developing innovative solutions for the education sector became the most formative process of my career. Building 5 different management and reporting projects with Next.js, AWS Cognito integrations, and performance-oriented dynamic pages using Islands Architecture were concrete examples of my technical competencies.",
     "journey_description_habithouse": "As a freelancer, the real estate management system I developed for KS Habithouse strengthened my mastery of the React ecosystem and my independent project management skills. The high-performance CRUD interfaces I built with modern tools like Chakra UI and Zustand became a testament to my customer-centric approach.",
@@ -171,6 +211,23 @@
       "years_experience": "Years of Experience",
       "technology": "Technology Expertise",
       "reference": "Reference"
+    }
+  },
+  "Education": {
+    "title": "My Education",
+    "subtitle": "Academic background and qualifications",
+    "IskenderunTechnical": {
+      "university": "İskenderun Technical University",
+      "degree": "Master's Degree in Computer Engineering",
+      "period": "September 2021 - September 2022",
+      "gpa": "GPA: 3.30 / 4.00",
+      "note": "Education was temporarily suspended in early 2023 due to external factors."
+    },
+    "Harran": {
+      "university": "Harran University",
+      "degree": "Bachelor's Degree in Computer Engineering",
+      "period": "September 2015 - June 2020",
+      "gpa": "GPA: 3.07 / 4.00"
     }
   }
 }

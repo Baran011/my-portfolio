@@ -1,5 +1,6 @@
 "use client";
 import Experiences from "@/components/Experiences";
+import Education from "@/components/Education";
 import Interests from "@/components/Interests";
 import ThreeJSAnimation from "@/components/ThreeJSAnimation";
 import { Label } from "@radix-ui/react-dropdown-menu";
@@ -51,7 +52,7 @@ export default function About() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
                 <div className="flex flex-col items-center">
                   <Code2 className="h-8 w-8  " />
-                  <p className="text-xl font-bold">3+</p>
+                  <p className="text-xl font-bold">4+</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     {t("stats.years_experience")}
                   </p>
@@ -129,6 +130,7 @@ export default function About() {
         </div>
         <Interests />
         <Experiences />
+        <Education />
       </div>
     </>
   );

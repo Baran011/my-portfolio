@@ -28,6 +28,57 @@ export default function Experiences() {
 
   const experiences = [
     {
+      company: t("EduMagicXR.company"),
+      position: t("EduMagicXR.position"),
+      period: t("EduMagicXR.period"),
+      description: [
+        t("EduMagicXR.description.0"),
+        t("EduMagicXR.description.1"),
+        t("EduMagicXR.description.2"),
+        t("EduMagicXR.description.3"),
+        t("EduMagicXR.description.4"),
+        t("EduMagicXR.description.5"),
+        t("EduMagicXR.description.6"),
+      ],
+      technologies: [
+        t("technologies.nextjs"),
+        t("technologies.react"),
+        t("technologies.typescript"),
+        t("technologies.reduxToolkit"),
+        t("technologies.rtkQuery"),
+        t("technologies.mui"),
+        t("technologies.jest"),
+        t("technologies.rtl"),
+        t("technologies.eslint"),
+        t("technologies.prettier"),
+        t("technologies.husky"),
+        t("technologies.unityWebGL"),
+        t("technologies.i18n"),
+      ],
+    },
+    {
+      company: t("MTYMarkaTasarla.company"),
+      position: t("MTYMarkaTasarla.position"),
+      period: t("MTYMarkaTasarla.period"),
+      description: [
+        t("MTYMarkaTasarla.description.0"),
+        t("MTYMarkaTasarla.description.1"),
+        t("MTYMarkaTasarla.description.2"),
+        t("MTYMarkaTasarla.description.3"),
+        t("MTYMarkaTasarla.description.4"),
+        t("MTYMarkaTasarla.description.5"),
+      ],
+      technologies: [
+        t("technologies.nextjs"),
+        t("technologies.typescript"),
+        t("technologies.reactHookForm"),
+        t("technologies.yup"),
+        t("technologies.microfrontend"),
+        t("technologies.cicd"),
+        t("technologies.appRouter"),
+      ],
+    },
+    {
       company: t("KSHabithouse.company"),
       position: t("KSHabithouse.position"),
       period: t("KSHabithouse.period"),
@@ -92,7 +143,7 @@ export default function Experiences() {
   ];
 
   return (
-    <section>
+    <section className="relative">
       <div className="space-y-2 mb-8">
         <h2 className="text-xl font-bold tracking-tighter sm:text-xl md:text-2xl relative">
           {t("title")}
@@ -103,77 +154,83 @@ export default function Experiences() {
         </p>
       </div>
 
-      <div className="space-y-8">
+      <div className="relative space-y-8 ">
         {experiences.map((exp, index) => (
-          <Card
-            key={index}
-            className="hover:shadow-lg transition-shadow flex p-0 h-full"
-          >
-            <CardHeader
-              className="cursor-pointer py-4 h-full"
-              onClick={() => toggleCard(index)}
-            >
-              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 h-full ">
-                <div className="flex items-center gap-2 h-full">
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="h-6 w-6"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      toggleCard(index);
-                    }}
-                  >
-                    {expandedCards[index] ? (
-                      <ChevronUp className="h-4 w-4" />
-                    ) : (
-                      <ChevronDown className="h-4 w-4" />
-                    )}
-                  </Button>
-                  <div>
-                    <CardTitle className="font-medium text-[16px] block truncate">
-                      {exp.position}
-                    </CardTitle>
-                    <CardDescription className="font-medium text-[16px] block truncate">
-                      {exp.company}
-                    </CardDescription>
-                  </div>
-                </div>
-                <Badge variant="outline" className="text-sm">
-                  {exp.period}
-                </Badge>
-              </div>
-            </CardHeader>
-
-            <div
-              className={`overflow-hidden transition-all duration-1300 ease-in-out ${
-                expandedCards[index] ? "max-h-[1000px]" : "max-h-0"
-              }`}
-            >
-              <Separator className="mb-4 " />
-              <CardContent className="space-y-4 ">
-                <ul className="space-y-2 list-disc pl-5">
-                  {exp.description.map((item, i) => (
-                    <li key={i} className="text-muted-foreground">
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="flex flex-wrap gap-2 pt-2 pb-4">
-                  {exp.technologies.map((tech, i) => (
-                    <Badge
-                      key={i}
-                      variant="secondary"
-                      className="text-sm font-normal"
+          <div key={index} className="relative">
+            <Card className="relative bg-white dark:bg-black border-1 border-gray-800 dark:border-gray-400 shadow-none hover:shadow-sm transition-shadow">
+              <CardHeader
+                className="cursor-pointer py-4 pr-8"
+                onClick={() => toggleCard(index)}
+              >
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
+                  <div className="flex items-start gap-3">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-6 w-6 border border-gray-300 dark:border-gray-600"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleCard(index);
+                      }}
                     >
-                      {tech}
-                    </Badge>
-                  ))}
+                      {expandedCards[index] ? (
+                        <ChevronUp className="h-4 w-4" />
+                      ) : (
+                        <ChevronDown className="h-4 w-4" />
+                      )}
+                    </Button>
+                    <div>
+                      <CardTitle className="font-medium text-[16px]">
+                        {exp.position}
+                      </CardTitle>
+                      <CardDescription className="font-medium text-[16px]">
+                        {exp.company}
+                      </CardDescription>
+                    </div>
+                  </div>
+                  <Badge
+                    variant="outline"
+                    className="text-sm border-gray-800 dark:border-gray-400"
+                  >
+                    {exp.period}
+                  </Badge>
                 </div>
-              </CardContent>
-            </div>
-          </Card>
+              </CardHeader>
+
+              <div
+                className={`overflow-hidden transition-all duration-1000 ease-in-out ${
+                  expandedCards[index] ? "max-h-[1000px]" : "max-h-0"
+                }`}
+              >
+                <Separator className="mb-4 border-gray-300 dark:border-gray-700" />
+                <CardContent className="space-y-4 pb-6">
+                  <ul className="space-y-2 list-disc pl-5">
+                    {exp.description.map((item, i) => (
+                      <li
+                        key={i}
+                        className="text-muted-foreground relative pl-4"
+                      >
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+
+                  <div className="flex flex-wrap gap-2 pt-2 pb-2">
+                    {exp.technologies.map((tech, i) => (
+                      <Badge
+                        key={i}
+                        variant="secondary"
+                        className="text-sm font-normal border border-gray-300 dark:border-gray-600 bg-gray-100 dark:bg-gray-800"
+                      >
+                        {tech}
+                      </Badge>
+                    ))}
+                  </div>
+                </CardContent>
+              </div>
+              <div className="absolute -bottom-2 -right-2 w-16 h-4 border-b-2 border-r-2 border-gray-800 dark:border-gray-400" />
+            </Card>
+          </div>
         ))}
       </div>
     </section>

@@ -17,7 +17,7 @@
     "frontend_web_developer": "Frontend Web Geliştirici",
     "about_title": "Hakkımda",
     "greeting": "Merhaba, ben Mehmet Baran ÇAKMAK",
-    "description": "3 yıllık deneyimle modern web teknolojileri üzerine uzmanlaşmış bir Frontend Developer'ım. Kullanıcı deneyimini ön planda tutan, performanslı ve estetik arayüzler geliştirken, React, Next.js ve TypeScript gibi güncel araçlarla projeleri hayata geçiriyorum.",
+    "description": "4 yıllık deneyimle modern web teknolojileri üzerine uzmanlaşmış bir Frontend Developer'ım. Kullanıcı deneyimini ön planda tutan, performanslı ve estetik arayüzler geliştirken, React, Next.js ve TypeScript gibi güncel araçlarla projeleri hayata geçiriyorum.",
     "what_i_do_title": "Neler Yapıyorum?",
     "what_i_do": [
       "React & Next.js ile ölçeklenebilir, dinamik ve SEO dostu web uygulamaları geliştiriyorum.",
@@ -67,10 +67,37 @@
         "Tailwind CSS ve Styled Components kullanarak tamamen responsive ve Figma’ya göre pixel-perfect UI'lar geliştirdim."
       ]
     },
+    "EduMagicXR": {
+      "company": "EduMagicXR",
+      "position": "Senior Frontend Developer",
+      "period": "Kasım 2025 – Günümüz",
+      "description": [
+        "Next.js 15 ve React 18 kullanarak modern, performans odaklı bir eğitim yönetim platformu geliştirmekteyim.",
+        "Redux Toolkit ile merkezi state yönetimi ve RTK Query ile otomatik token yenileme mekanizması içeren güvenli API entegrasyonu gerçekleştirdim.",
+        "Material-UI (MUI) bileşen kütüphanesi kullanarak responsive, dark/light tema destekli ve çok dilli (TR, EN, AR, DE) kullanıcı arayüzü tasarladım.",
+        "Server-side ve client-side pagination, sorting, filtering ve search özellikleri içeren yeniden kullanılabilir DataTable bileşeni oluşturdum.",
+        "ESLint, Prettier ve Stylelint ile kod standartlarını otomatikleştirdim ve Husky pre-commit hooks ile clean code sürdürülebilirliğini sağladım.",
+        "Jest ve React Testing Library kullanarak %80+ test coverage ile kapsamlı unit ve integration testleri yazdım.",
+        "Unity WebGL entegrasyonu yaparak 3D eğitim içeriklerinin web platformunda çalışmasını sağladım."
+      ]
+    },
+    "MTYMarkaTasarla": {
+      "company": "MTY Marka Tasarla Software",
+      "position": "Senior Frontend Lead Developer",
+      "period": "Temmuz 2025 – Kasım 2025",
+      "description": [
+        "Mobil cihaz alım satım ve turizm/otelcilik sektörlerinde iki farklı projede Frontend Team Lead olarak görev aldım.",
+        "Proje mimarisi, kod standartları, CI/CD pipeline yönetimi ve deployment süreçlerinin planlanmasında aktif rol üstlendim.",
+        "Ekip içi kod inceleme (code review), PR yönetimi ve sprint planlamalarıyla takımın teknik kalite ve üretkenliğini artırdım.",
+        "Next.js (App Router) + TypeScript altyapısında performans odaklı, SEO uyumlu ve ölçeklenebilir arayüzler geliştirdim.",
+        "Microfrontend yaklaşımı ile modüler yapıların birbirinden bağımsız olarak geliştirilebilmesini ve yeniden kullanılabilirliğini sağladım.",
+        "React Hook Form + Yup yapısı ile dinamik formlar ve validasyon sistemleri geliştirdim."
+      ]
+    },
     "KSHabithouse": {
       "company": "KS HABITHOUSE",
       "position": "Freelance Frontend Developer",
-      "period": "Mart 2025 – Günümüz",
+      "period": "Mart 2025 – Ağustos 2025",
       "description": [
         "React ile emlak yönetim sistemi ve müşteri arayüzü geliştirdim.",
         "Formik ile dinamik validasyon kuralları içeren kompleks formlar tasarladım.",
@@ -106,7 +133,20 @@
       "crud": "CRUD",
       "itManagement": "IT Yönetimi",
       "networkSystems": "Ağ Sistemleri",
-      "techSupport": "Teknik Destek"
+      "techSupport": "Teknik Destek",
+      "reactHookForm": "React Hook Form",
+      "yup": "Yup",
+      "microfrontend": "Microfrontend",
+      "cicd": "CI/CD",
+      "appRouter": "App Router",
+      "reduxToolkit": "Redux Toolkit",
+      "rtkQuery": "RTK Query",
+      "eslint": "ESLint",
+      "prettier": "Prettier",
+      "stylelint": "Stylelint",
+      "husky": "Husky",
+      "unityWebGL": "Unity WebGL",
+      "i18n": "i18n (Çok Dilli)"
     }
   },
   "Footer": {
@@ -118,7 +158,7 @@
   },
   "About": {
     "about_title": "Hakkımda",
-    "description": "3 yıllık profesyonel deneyime sahip, modern web teknolojilerine tutkulu bir Frontend Developer olarak kariyerimi sürdürüyorum. Harran Üniversitesi'nde tamamladığım Bilgisayar Mühendisliği lisans eğitimim ve İskenderun Teknik Üniversitesi'ndeki yüksek lisans çalışmalarımla teknik altyapımı güçlendirdim. Edindiğim sektör deneyiminin ardından, şu anda Adana'da bağımsız bir Frontend Developer olarak çalışmalarıma devam ediyorum.",
+    "description": "4 yıllık profesyonel deneyime sahip, modern web teknolojilerine tutkulu bir Frontend Developer olarak kariyerimi sürdürüyorum. Harran Üniversitesi'nde tamamladığım Bilgisayar Mühendisliği lisans eğitimim ve İskenderun Teknik Üniversitesi'ndeki yüksek lisans çalışmalarımla teknik altyapımı güçlendirdim. Edindiğim sektör deneyiminin ardından, şu anda Adana'da bağımsız bir Frontend Developer olarak çalışmalarıma devam ediyorum.",
     "professional_journey": "Profesyonel Yolculuğum",
     "journey_description_edulog": "Edulog Eğitim Arge Bilişim'deki Mid Frontend Developer pozisyonumda, eğitim sektörüne yönelik yenilikçi çözümler geliştirirken edindiğim deneyimler beni şekillendiren en önemli süreç oldu. Next.js ile inşa ettiğim 5 farklı yönetim ve raporlama projesi, AWS Cognito entegrasyonları ve Adalar mimarisi (Islands Architecture) kullanarak oluşturduğum performans odaklı dinamik sayfalar, teknik yetkinliklerimi somutlaştıran çalışmalar oldu.",
     "journey_description_habithouse": "Freelance olarak KS Habithouse için geliştirdiğim emlak yönetim sistemi, React ekosistemindeki hakimiyetimi ve bağımsız proje yönetme becerilerimi güçlendirdi. Chakra UI ve Zustand gibi modern araçlarla oluşturduğum yüksek performanslı CRUD arayüzleri, müşteri memnuniyetini ön planda tutan yaklaşımımın göstergesi oldu.",
@@ -171,6 +211,23 @@
       "years_experience": "Yıl Tecrübe",
       "technology": "Teknoloji Uzmanlığı",
       "reference": "Referans"
+    }
+  },
+  "Education": {
+    "title": "Eğitim Hayatım",
+    "subtitle": "Akademik geçmiş ve nitelikler",
+    "IskenderunTechnical": {
+      "university": "İskenderun Teknik Üniversitesi",
+      "degree": "Bilgisayar Mühendisliği Yüksek Lisans",
+      "period": "Eylül 2021 - Eylül 2022",
+      "gpa": "Diploma Notu: 3.30 / 4.00",
+      "note": "Eğitim 2023 yılının başında dış etkenler nedeniyle geçici olarak askıya alındı."
+    },
+    "Harran": {
+      "university": "Harran Üniversitesi",
+      "degree": "Bilgisayar Mühendisliği Lisans",
+      "period": "Eylül 2015 - Haziran 2020",
+      "gpa": "Diploma Notu: 3.07 / 4.00"
     }
   }
 }
